@@ -1,0 +1,953 @@
+{
+    "items": [
+      {
+        "path": "/content/dam/wknd-shared/en/contributors/ian-provo",
+        "title": "Ian Provo",
+        "description": "",
+        "id": "6d980eb-af43-5503c46a061c",
+        "created": {
+          "at": "2023-08-02T16:01:48.275+03:00",
+          "by": "admin"
+        },
+        "modified": {
+          "at": "2023-08-04T14:51:58.597+03:00",
+          "by": "admin"
+        },
+        "status": "DRAFT",
+        "fields": [
+          {
+            "type": "long-text",
+            "name": "claimText",
+            "multiple": false,
+            "values": [
+              "Ian"
+            ]
+          },
+          {
+            "type": "text",
+            "name": "lastName",
+            "multiple": false,
+            "values": [
+              "Provo"
+            ]
+          },
+          {
+            "type": "content-reference",
+            "name": "profilePicture",
+            "multiple": false,
+            "values": [
+              "/content/dam/wknd-shared/en/contributors/ian_provo.jpg"
+            ]
+          },
+          {
+            "type": "date-time",
+            "name": "birthDay",
+            "multiple": false,
+            "values": [
+              "1988-09-26T14:09:00-07:00"
+            ]
+          },
+          {
+            "type": "long-text",
+            "name": "biography",
+            "multiple": false,
+            "mimeType": "text/html",
+            "values": []
+          },
+          {
+            "type": "enumeration",
+            "name": "occupations",
+            "multiple": true,
+            "values": [
+              "Influencer",
+              "Photographer"
+            ]
+          }
+        ],
+        "variations": [
+          {
+            "name": "another",
+            "title": "Another",
+            "description": "",
+            "fields": [
+              {
+                "type": "text",
+                "name": "firstName",
+                "multiple": false,
+                "values": [
+                  "IanX"
+                ]
+              },
+              {
+                "type": "text",
+                "name": "lastName",
+                "multiple": false,
+                "values": [
+                  "Provo"
+                ]
+              },
+              {
+                "type": "content-reference",
+                "name": "profilePicture",
+                "multiple": false,
+                "values": [
+                  "/content/dam/wknd-shared/en/contributors/ian_provo.jpg"
+                ]
+              },
+              {
+                "type": "date-time",
+                "name": "birthDay",
+                "multiple": false,
+                "values": []
+              },
+              {
+                "type": "long-text",
+                "name": "biography",
+                "multiple": false,
+                "mimeType": "text/html",
+                "values": []
+              },
+              {
+                "type": "enumeration",
+                "name": "occupations",
+                "multiple": true,
+                "values": [
+                  "Influencer"
+                ]
+              }
+            ],
+            "tags": []
+          }
+        ],
+        "tags": [
+          {
+            "id": "wknd-shared:activity/social",
+            "title": "Social",
+            "i18n": [],
+            "titlePath": "WKND Shared : Activity / Social",
+            "name": "social",
+            "path": "/content/cq:tags/wknd-shared/activity/social",
+            "description": ""
+          }
+        ],
+        "references": [
+          {
+            "type": "asset",
+            "name": "ian_provo.jpg",
+            "fieldName": "profilePicture",
+            "path": "/content/dam/wknd-shared/en/contributors/ian_provo.jpg",
+            "created": {
+              "at": "2023-08-02T16:01:47.765+03:00",
+              "by": "admin"
+            },
+            "status": "DRAFT",
+            "assetId": "urn:aaid:aem:1fb05fe4-c12b-4f85-b1ca-aa92cdbd6a62",
+            "repo:size": 251434,
+            "dc:format": "image/jpeg",
+            "tiff:ImageWidth": 1152,
+            "tiff:ImageHeight": 1152
+          }
+        ],
+        "model": {
+          "id": "L2NvbmYvd2tuZC1zaGFyZWQvc2V0dGluZ3MvZGFtL2NmbS9tb2RlbHMvYXV0aG9y",
+          "path": "/conf/wknd-shared/settings/dam/cfm/models/author",
+          "name": "Author",
+          "title": "Author"
+        },
+        "validationStatus": [],
+        "fieldTags": [],
+        "etag": "79d1081c7b275f62a99ccd92828c4c83"
+      },
+      {
+        "path": "/content/dam/wknd-shared/en/contributors/ian-provo",
+        "title": "Content Fragment 2",
+        "description": "",
+        "id": "6d980e6a-caf43-5503c46a061c",
+        "created": {
+          "at": "2023-08-02T16:01:48.275+03:00",
+          "by": "admin"
+        },
+        "modified": {
+          "at": "2023-08-04T14:51:58.597+03:00",
+          "by": "admin"
+        },
+        "status": "DRAFT",
+        "fields": [
+            {
+            "type": "long-text",
+            "name": "claimText",
+            "multiple": false,
+            "values": [
+                "Ian"
+            ]
+            },
+          {
+            "type": "text",
+            "name": "lastName",
+            "multiple": false,
+            "values": [
+              "Provo"
+            ]
+          },
+          {
+            "type": "content-reference",
+            "name": "profilePicture",
+            "multiple": false,
+            "values": [
+              "/content/dam/wknd-shared/en/contributors/ian_provo.jpg"
+            ]
+          },
+          {
+            "type": "date-time",
+            "name": "birthDay",
+            "multiple": false,
+            "values": [
+              "1988-09-26T14:09:00-07:00"
+            ]
+          },
+          {
+            "type": "long-text",
+            "name": "biography",
+            "multiple": false,
+            "mimeType": "text/html",
+            "values": []
+          },
+          {
+            "type": "enumeration",
+            "name": "occupations",
+            "multiple": true,
+            "values": [
+              "Influencer",
+              "Photographer"
+            ]
+          }
+        ],
+        "variations": [
+          {
+            "name": "another",
+            "title": "Another",
+            "description": "",
+            "fields": [
+              {
+                "type": "text",
+                "name": "firstName",
+                "multiple": false,
+                "values": [
+                  "IanX"
+                ]
+              },
+              {
+                "type": "text",
+                "name": "lastName",
+                "multiple": false,
+                "values": [
+                  "Provo"
+                ]
+              },
+              {
+                "type": "content-reference",
+                "name": "profilePicture",
+                "multiple": false,
+                "values": [
+                  "/content/dam/wknd-shared/en/contributors/ian_provo.jpg"
+                ]
+              },
+              {
+                "type": "date-time",
+                "name": "birthDay",
+                "multiple": false,
+                "values": []
+              },
+              {
+                "type": "long-text",
+                "name": "biography",
+                "multiple": false,
+                "mimeType": "text/html",
+                "values": []
+              },
+              {
+                "type": "enumeration",
+                "name": "occupations",
+                "multiple": true,
+                "values": [
+                  "Influencer"
+                ]
+              }
+            ],
+            "tags": []
+          }
+        ],
+        "tags": [
+          {
+            "id": "wknd-shared:activity/social",
+            "title": "Social",
+            "i18n": [],
+            "titlePath": "WKND Shared : Activity / Social",
+            "name": "social",
+            "path": "/content/cq:tags/wknd-shared/activity/social",
+            "description": ""
+          }
+        ],
+        "references": [
+          {
+            "type": "asset",
+            "name": "ian_provo.jpg",
+            "fieldName": "profilePicture",
+            "path": "/content/dam/wknd-shared/en/contributors/ian_provo.jpg",
+            "created": {
+              "at": "2023-08-02T16:01:47.765+03:00",
+              "by": "admin"
+            },
+            "status": "DRAFT",
+            "assetId": "urn:aaid:aem:1fb05fe4-c12b-4f85-b1ca-aa92cdbd6a62",
+            "repo:size": 251434,
+            "dc:format": "image/jpeg",
+            "tiff:ImageWidth": 1152,
+            "tiff:ImageHeight": 1152
+          }
+        ],
+        "model": {
+          "id": "L2NvbmYvd2tuZC1zaGFyZWQvc2V0dGluZ3MvZGFtL2NmbS9tb2RlbHMvYXV0aG9y",
+          "path": "/conf/wknd-shared/settings/dam/cfm/models/author",
+          "name": "Author",
+          "title": "Author"
+        },
+        "validationStatus": [],
+        "fieldTags": [],
+        "etag": "79d1081c7b275f62a99ccd92828c4c83"
+      },
+      {
+        "path": "/content/dam/wknd-shared/en/contributors/ian-provo",
+        "title": "FDKSLFJklsjflskdjf",
+        "description": "",
+        "id": "6d980e6a-c9e7-444b-af43c46a061c",
+        "created": {
+          "at": "2023-08-02T16:01:48.275+03:00",
+          "by": "admin"
+        },
+        "modified": {
+          "at": "2023-08-04T14:51:58.597+03:00",
+          "by": "admin"
+        },
+        "status": "DRAFT",
+        "fields": [
+            {
+                "type": "long-text",
+                "name": "claimText",
+                "multiple": false,
+                "values": [
+                  "Ian"
+                ]
+              },
+          {
+            "type": "text",
+            "name": "lastName",
+            "multiple": false,
+            "values": [
+              "Provo"
+            ]
+          },
+          {
+            "type": "content-reference",
+            "name": "profilePicture",
+            "multiple": false,
+            "values": [
+              "/content/dam/wknd-shared/en/contributors/ian_provo.jpg"
+            ]
+          },
+          {
+            "type": "date-time",
+            "name": "birthDay",
+            "multiple": false,
+            "values": [
+              "1988-09-26T14:09:00-07:00"
+            ]
+          },
+          {
+            "type": "long-text",
+            "name": "biography",
+            "multiple": false,
+            "mimeType": "text/html",
+            "values": []
+          },
+          {
+            "type": "enumeration",
+            "name": "occupations",
+            "multiple": true,
+            "values": [
+              "Influencer",
+              "Photographer"
+            ]
+          }
+        ],
+        "variations": [
+          {
+            "name": "another",
+            "title": "Another",
+            "description": "",
+            "fields": [
+              {
+                "type": "text",
+                "name": "firstName",
+                "multiple": false,
+                "values": [
+                  "IanX"
+                ]
+              },
+              {
+                "type": "text",
+                "name": "lastName",
+                "multiple": false,
+                "values": [
+                  "Provo"
+                ]
+              },
+              {
+                "type": "content-reference",
+                "name": "profilePicture",
+                "multiple": false,
+                "values": [
+                  "/content/dam/wknd-shared/en/contributors/ian_provo.jpg"
+                ]
+              },
+              {
+                "type": "date-time",
+                "name": "birthDay",
+                "multiple": false,
+                "values": []
+              },
+              {
+                "type": "long-text",
+                "name": "biography",
+                "multiple": false,
+                "mimeType": "text/html",
+                "values": []
+              },
+              {
+                "type": "enumeration",
+                "name": "occupations",
+                "multiple": true,
+                "values": [
+                  "Influencer"
+                ]
+              }
+            ],
+            "tags": []
+          }
+        ],
+        "tags": [
+          {
+            "id": "wknd-shared:activity/social",
+            "title": "Social",
+            "i18n": [],
+            "titlePath": "WKND Shared : Activity / Social",
+            "name": "social",
+            "path": "/content/cq:tags/wknd-shared/activity/social",
+            "description": ""
+          }
+        ],
+        "references": [
+          {
+            "type": "asset",
+            "name": "ian_provo.jpg",
+            "fieldName": "profilePicture",
+            "path": "/content/dam/wknd-shared/en/contributors/ian_provo.jpg",
+            "created": {
+              "at": "2023-08-02T16:01:47.765+03:00",
+              "by": "admin"
+            },
+            "status": "DRAFT",
+            "assetId": "urn:aaid:aem:1fb05fe4-c12b-4f85-b1ca-aa92cdbd6a62",
+            "repo:size": 251434,
+            "dc:format": "image/jpeg",
+            "tiff:ImageWidth": 1152,
+            "tiff:ImageHeight": 1152
+          }
+        ],
+        "model": {
+          "id": "L2NvbmYvd2tuZC1zaGFyZWQvc2V0dGluZ3MvZGFtL2NmbS9tb2RlbHMvYXV0aG9y",
+          "path": "/conf/wknd-shared/settings/dam/cfm/models/author",
+          "name": "Author",
+          "title": "Author"
+        },
+        "validationStatus": [],
+        "fieldTags": [],
+        "etag": "79d1081c7b275f62a99ccd92828c4c83"
+      },
+      {
+        "path": "/content/dam/wknd-shared/en/contributors/ian-provo",
+        "title": "dfgdfgdfgdfg",
+        "description": "",
+        "id": "980e6a-c9e7-444b-af43-5503c46a061c",
+        "created": {
+          "at": "2023-08-02T16:01:48.275+03:00",
+          "by": "admin"
+        },
+        "modified": {
+          "at": "2023-08-04T14:51:58.597+03:00",
+          "by": "admin"
+        },
+        "status": "DRAFT",
+        "fields": [
+          {
+            "type": "text",
+            "name": "claimText",
+            "multiple": false,
+            "values": [
+              "Ian"
+            ]
+          },
+          {
+            "type": "text",
+            "name": "lastName",
+            "multiple": false,
+            "values": [
+              "Provo"
+            ]
+          },
+          {
+            "type": "content-reference",
+            "name": "profilePicture",
+            "multiple": false,
+            "values": [
+              "/content/dam/wknd-shared/en/contributors/ian_provo.jpg"
+            ]
+          },
+          {
+            "type": "date-time",
+            "name": "birthDay",
+            "multiple": false,
+            "values": [
+              "1988-09-26T14:09:00-07:00"
+            ]
+          },
+          {
+            "type": "long-text",
+            "name": "biography",
+            "multiple": false,
+            "mimeType": "text/html",
+            "values": []
+          },
+          {
+            "type": "enumeration",
+            "name": "occupations",
+            "multiple": true,
+            "values": [
+              "Influencer",
+              "Photographer"
+            ]
+          }
+        ],
+        "variations": [
+          {
+            "name": "another",
+            "title": "Another",
+            "description": "",
+            "fields": [
+              {
+                "type": "text",
+                "name": "firstName",
+                "multiple": false,
+                "values": [
+                  "IanX"
+                ]
+              },
+              {
+                "type": "text",
+                "name": "lastName",
+                "multiple": false,
+                "values": [
+                  "Provo"
+                ]
+              },
+              {
+                "type": "content-reference",
+                "name": "profilePicture",
+                "multiple": false,
+                "values": [
+                  "/content/dam/wknd-shared/en/contributors/ian_provo.jpg"
+                ]
+              },
+              {
+                "type": "date-time",
+                "name": "birthDay",
+                "multiple": false,
+                "values": []
+              },
+              {
+                "type": "long-text",
+                "name": "biography",
+                "multiple": false,
+                "mimeType": "text/html",
+                "values": []
+              },
+              {
+                "type": "enumeration",
+                "name": "occupations",
+                "multiple": true,
+                "values": [
+                  "Influencer"
+                ]
+              }
+            ],
+            "tags": []
+          }
+        ],
+        "tags": [
+          {
+            "id": "wknd-shared:activity/social",
+            "title": "Social",
+            "i18n": [],
+            "titlePath": "WKND Shared : Activity / Social",
+            "name": "social",
+            "path": "/content/cq:tags/wknd-shared/activity/social",
+            "description": ""
+          }
+        ],
+        "references": [
+          {
+            "type": "asset",
+            "name": "ian_provo.jpg",
+            "fieldName": "profilePicture",
+            "path": "/content/dam/wknd-shared/en/contributors/ian_provo.jpg",
+            "created": {
+              "at": "2023-08-02T16:01:47.765+03:00",
+              "by": "admin"
+            },
+            "status": "DRAFT",
+            "assetId": "urn:aaid:aem:1fb05fe4-c12b-4f85-b1ca-aa92cdbd6a62",
+            "repo:size": 251434,
+            "dc:format": "image/jpeg",
+            "tiff:ImageWidth": 1152,
+            "tiff:ImageHeight": 1152
+          }
+        ],
+        "model": {
+          "id": "L2NvbmYvd2tuZC1zaGFyZWQvc2V0dGluZ3MvZGFtL2NmbS9tb2RlbHMvYXV0aG9y",
+          "path": "/conf/wknd-shared/settings/dam/cfm/models/author",
+          "name": "Author",
+          "title": "Author"
+        },
+        "validationStatus": [],
+        "fieldTags": [],
+        "etag": "79d1081c7b275f62a99ccd92828c4c83"
+      },
+      {
+        "path": "/content/dam/wknd-shared/en/contributors/ian-provo",
+        "title": "dfsdfsfdsfdsfdsf",
+        "description": "",
+        "id": "6d980ec9e7-444b-af43-5503c46a061c",
+        "created": {
+          "at": "2023-08-02T16:01:48.275+03:00",
+          "by": "admin"
+        },
+        "modified": {
+          "at": "2023-08-04T14:51:58.597+03:00",
+          "by": "admin"
+        },
+        "status": "DRAFT",
+        "fields": [
+          {
+            "type": "text",
+            "name": "claimText",
+            "multiple": false,
+            "values": [
+              "Ian"
+            ]
+          },
+          {
+            "type": "text",
+            "name": "lastName",
+            "multiple": false,
+            "values": [
+              "Provo"
+            ]
+          },
+          {
+            "type": "content-reference",
+            "name": "profilePicture",
+            "multiple": false,
+            "values": [
+              "/content/dam/wknd-shared/en/contributors/ian_provo.jpg"
+            ]
+          },
+          {
+            "type": "date-time",
+            "name": "birthDay",
+            "multiple": false,
+            "values": [
+              "1988-09-26T14:09:00-07:00"
+            ]
+          },
+          {
+            "type": "long-text",
+            "name": "biography",
+            "multiple": false,
+            "mimeType": "text/html",
+            "values": []
+          },
+          {
+            "type": "enumeration",
+            "name": "occupations",
+            "multiple": true,
+            "values": [
+              "Influencer",
+              "Photographer"
+            ]
+          }
+        ],
+        "variations": [
+          {
+            "name": "another",
+            "title": "Another",
+            "description": "",
+            "fields": [
+              {
+                "type": "text",
+                "name": "firstName",
+                "multiple": false,
+                "values": [
+                  "IanX"
+                ]
+              },
+              {
+                "type": "text",
+                "name": "lastName",
+                "multiple": false,
+                "values": [
+                  "Provo"
+                ]
+              },
+              {
+                "type": "content-reference",
+                "name": "profilePicture",
+                "multiple": false,
+                "values": [
+                  "/content/dam/wknd-shared/en/contributors/ian_provo.jpg"
+                ]
+              },
+              {
+                "type": "date-time",
+                "name": "birthDay",
+                "multiple": false,
+                "values": []
+              },
+              {
+                "type": "long-text",
+                "name": "biography",
+                "multiple": false,
+                "mimeType": "text/html",
+                "values": []
+              },
+              {
+                "type": "enumeration",
+                "name": "occupations",
+                "multiple": true,
+                "values": [
+                  "Influencer"
+                ]
+              }
+            ],
+            "tags": []
+          }
+        ],
+        "tags": [
+          {
+            "id": "wknd-shared:activity/social",
+            "title": "Social",
+            "i18n": [],
+            "titlePath": "WKND Shared : Activity / Social",
+            "name": "social",
+            "path": "/content/cq:tags/wknd-shared/activity/social",
+            "description": ""
+          }
+        ],
+        "references": [
+          {
+            "type": "asset",
+            "name": "ian_provo.jpg",
+            "fieldName": "profilePicture",
+            "path": "/content/dam/wknd-shared/en/contributors/ian_provo.jpg",
+            "created": {
+              "at": "2023-08-02T16:01:47.765+03:00",
+              "by": "admin"
+            },
+            "status": "DRAFT",
+            "assetId": "urn:aaid:aem:1fb05fe4-c12b-4f85-b1ca-aa92cdbd6a62",
+            "repo:size": 251434,
+            "dc:format": "image/jpeg",
+            "tiff:ImageWidth": 1152,
+            "tiff:ImageHeight": 1152
+          }
+        ],
+        "model": {
+          "id": "L2NvbmYvd2tuZC1zaGFyZWQvc2V0dGluZ3MvZGFtL2NmbS9tb2RlbHMvYXV0aG9y",
+          "path": "/conf/wknd-shared/settings/dam/cfm/models/author",
+          "name": "Author",
+          "title": "Author"
+        },
+        "validationStatus": [],
+        "fieldTags": [],
+        "etag": "79d1081c7b275f62a99ccd92828c4c83"
+      },
+      {
+        "path": "/content/dam/wknd-shared/en/contributors/ian-provo",
+        "title": "zgldglkjdlfg",
+        "description": "",
+        "id": "6d980e6a-c9e7-444b-af43-5503c46a0",
+        "created": {
+          "at": "2023-08-02T16:01:48.275+03:00",
+          "by": "admin"
+        },
+        "modified": {
+          "at": "2023-08-04T14:51:58.597+03:00",
+          "by": "admin"
+        },
+        "status": "DRAFT",
+        "fields": [
+          {
+            "type": "text",
+            "name": "claimText",
+            "multiple": false,
+            "values": [
+              "Ian"
+            ]
+          },
+          {
+            "type": "text",
+            "name": "lastName",
+            "multiple": false,
+            "values": [
+              "Provo"
+            ]
+          },
+          {
+            "type": "content-reference",
+            "name": "profilePicture",
+            "multiple": false,
+            "values": [
+              "/content/dam/wknd-shared/en/contributors/ian_provo.jpg"
+            ]
+          },
+          {
+            "type": "date-time",
+            "name": "birthDay",
+            "multiple": false,
+            "values": [
+              "1988-09-26T14:09:00-07:00"
+            ]
+          },
+          {
+            "type": "long-text",
+            "name": "biography",
+            "multiple": false,
+            "mimeType": "text/html",
+            "values": []
+          },
+          {
+            "type": "enumeration",
+            "name": "occupations",
+            "multiple": true,
+            "values": [
+              "Influencer",
+              "Photographer"
+            ]
+          }
+        ],
+        "variations": [
+          {
+            "name": "another",
+            "title": "Another",
+            "description": "",
+            "fields": [
+              {
+                "type": "text",
+                "name": "firstName",
+                "multiple": false,
+                "values": [
+                  "IanX"
+                ]
+              },
+              {
+                "type": "text",
+                "name": "lastName",
+                "multiple": false,
+                "values": [
+                  "Provo"
+                ]
+              },
+              {
+                "type": "content-reference",
+                "name": "profilePicture",
+                "multiple": false,
+                "values": [
+                  "/content/dam/wknd-shared/en/contributors/ian_provo.jpg"
+                ]
+              },
+              {
+                "type": "date-time",
+                "name": "birthDay",
+                "multiple": false,
+                "values": []
+              },
+              {
+                "type": "long-text",
+                "name": "biography",
+                "multiple": false,
+                "mimeType": "text/html",
+                "values": []
+              },
+              {
+                "type": "enumeration",
+                "name": "occupations",
+                "multiple": true,
+                "values": [
+                  "Influencer"
+                ]
+              }
+            ],
+            "tags": []
+          }
+        ],
+        "tags": [
+          {
+            "id": "wknd-shared:activity/social",
+            "title": "Social",
+            "i18n": [],
+            "titlePath": "WKND Shared : Activity / Social",
+            "name": "social",
+            "path": "/content/cq:tags/wknd-shared/activity/social",
+            "description": ""
+          }
+        ],
+        "references": [
+          {
+            "type": "asset",
+            "name": "ian_provo.jpg",
+            "fieldName": "profilePicture",
+            "path": "/content/dam/wknd-shared/en/contributors/ian_provo.jpg",
+            "created": {
+              "at": "2023-08-02T16:01:47.765+03:00",
+              "by": "admin"
+            },
+            "status": "DRAFT",
+            "assetId": "urn:aaid:aem:1fb05fe4-c12b-4f85-b1ca-aa92cdbd6a62",
+            "repo:size": 251434,
+            "dc:format": "image/jpeg",
+            "tiff:ImageWidth": 1152,
+            "tiff:ImageHeight": 1152
+          }
+        ],
+        "model": {
+          "id": "L2NvbmYvd2tuZC1zaGFyZWQvc2V0dGluZ3MvZGFtL2NmbS9tb2RlbHMvYXV0aG9y",
+          "path": "/conf/wknd-shared/settings/dam/cfm/models/author",
+          "name": "Author",
+          "title": "Author"
+        },
+        "validationStatus": [],
+        "fieldTags": [],
+        "etag": "79d1081c7b275f62a99ccd92828c4c83"
+      }
+    ],
+    "cursor": "string"
+  }

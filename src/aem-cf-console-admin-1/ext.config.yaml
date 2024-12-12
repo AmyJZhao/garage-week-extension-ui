@@ -1,0 +1,31 @@
+operations:
+  view:
+    - type: web
+      impl: index.html
+actions: actions
+web: web-src
+runtimeManifest:
+  packages:
+    aem-cf-console-admin-1:
+      license: Apache-2.0
+      actions:
+        get-content-fragments-by-model-filter:
+          function: actions/get-content-fragments-by-model-filter/index.js
+          web: 'yes'
+          runtime: nodejs:18
+          require-adobe-auth: false
+          inputs:
+            LOG_LEVEL: debug
+          annotations:
+            final: true
+        get-models-list:
+          function: actions/get-models-list/index.js
+          web: 'yes'
+          runtime: nodejs:18
+          require-adobe-auth: false
+          inputs:
+            LOG_LEVEL: debug
+          annotations:
+            final: true
+hooks:
+  post-app-deploy: ./hooks/post-deploy.js

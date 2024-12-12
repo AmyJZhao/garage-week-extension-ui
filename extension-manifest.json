@@ -1,0 +1,13 @@
+{
+  "name": "Select CF",
+  "id": "select-cf",
+  "description": "garage week",
+  "version": "0.0.1",
+  "headerMenuButtons": [
+    {
+      "label": "Select CF",
+      "needsModal": true,
+      "id": "select-cf"
+    }
+  ]
+}

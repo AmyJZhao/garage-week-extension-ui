@@ -1,0 +1,224 @@
+{
+    "cursor": "jov7-ifC2E_pkSqK4i04yXiXOtUrVpG-PV5Goyqz6NMKWiql49uQ7iEpiPu7k8OQo2uVqtsmRuSdsMHFmQXvig",
+    "items": [{
+        "id": "L2NvbmYvQWRpdGktQ0YtVGVzdC9UZXN0LWNvbmYtMi9UZXN0LWNvbmYtMy9zZXR0aW5ncy9kYW0vY2ZtL21vZGVscy9iYW5uZXItbW9kZWw",
+        "path": "/conf/Aditi-CF-Test/Test-conf-2/Test-conf-3/settings/dam/cfm/models/banner-model",
+        "name": "Banner model",
+        "etag": "\"4382c18102a69fb72a67792191f173eb\"",
+        "created": {
+            "at": "2024-11-04T22:23:37.573Z",
+            "by": "duttchau@adobe.com",
+            "fullName": "Aditi Dutt Chaudhuri"
+        },
+        "modified": {
+            "at": "2024-11-04T22:37:28.679Z",
+            "by": "duttchau@adobe.com",
+            "fullName": "Aditi Dutt Chaudhuri"
+        },
+        "locked": false,
+        "status": "enabled",
+        "replicationStatus": "UNPUBLISHED",
+        "fields": [{
+            "name": "title",
+            "label": "Title",
+            "required": false,
+            "multiple": false,
+            "type": "long-text",
+            "mimeType": "text/html"
+        }],
+        "tags": []
+    }, {
+        "id": "L2NvbmYvVGVzdC9zZXR0aW5ncy9kYW0vY2ZtL21vZGVscy9zYW1wbGUtbW9kZWw",
+        "path": "/conf/Test/settings/dam/cfm/models/sample-model",
+        "name": "Sample model",
+        "etag": "\"a8a3ac66184de6d033149ab3bd9e966d\"",
+        "created": {
+            "at": "2023-02-17T12:50:26.921Z",
+            "by": "orlowska@adobe.com",
+            "fullName": "Magdalena Orlowska"
+        },
+        "modified": {
+            "at": "2024-09-06T07:32:58.449Z",
+            "by": "orlowska@adobe.com",
+            "fullName": "Magdalena Orlowska"
+        },
+        "locked": false,
+        "status": "enabled",
+        "replicationStatus": "NEVER_PUBLISHED",
+        "fields": [{
+            "name": "fieldLabel",
+            "label": "Field Label",
+            "required": true,
+            "multiple": false,
+            "type": "text",
+            "maxLength": 255,
+            "unique": false,
+            "validationType": "none"
+        }, {
+            "name": "fieldLabelmulti",
+            "label": "Field Label",
+            "required": true,
+            "multiple": true,
+            "type": "text",
+            "maxLength": 255,
+            "unique": false,
+            "validationType": "none"
+        }],
+        "tags": [{
+            "id": "default:",
+            "title": "Standard Tags",
+            "i18n": [],
+            "titlePath": "Standard Tags",
+            "name": "default",
+            "path": "/content/cq:tags/default"
+        }]
+    },
+    {
+        "id": "L2NvbmYvQWRpdGktQ0YtVGVzdC9zZXR0aW5ncy9kYW0vY2ZtL21vZGVscy9hbGxkYXRhdHlwZXNfbm9yZXF1aXJlZGZpZWxk",
+        "path": "/conf/Aditi-CF-Test/settings/dam/cfm/models/alldatatypes_norequiredfield",
+        "name": "alldatatypes_norequiredfield",
+        "etag": "\"bb8457eabafd41c5ce61a588aa87aa65\"",
+        "created": {
+            "at": "2023-03-02T19:27:54.736Z",
+            "by": "duttchau@adobe.com",
+            "fullName": "Aditi Dutt Chaudhuri"
+        },
+        "modified": {
+            "at": "2024-11-04T21:30:47.066Z",
+            "by": "duttchau@adobe.com",
+            "fullName": "Aditi Dutt Chaudhuri"
+        },
+        "published": {
+            "at": "2024-11-04T23:03:27.793Z",
+            "by": "duttchau@adobe.com",
+            "fullName": "Aditi Dutt Chaudhuri"
+        },
+        "locked": true,
+        "status": "enabled",
+        "replicationStatus": "PUBLISHED",
+        "fields": [{
+            "name": "title",
+            "label": "Title",
+            "required": false,
+            "multiple": true,
+            "type": "text",
+            "maxLength": 300,
+            "unique": false,
+            "validationType": "none"
+        }, {
+            "name": "richText",
+            "label": "Rich text",
+            "required": false,
+            "multiple": true,
+            "type": "long-text",
+            "mimeType": "text/html"
+        }, {
+            "name": "plaintext",
+            "label": "Plaintext",
+            "required": false,
+            "multiple": true,
+            "type": "long-text",
+            "mimeType": "text/plain"
+        }, {
+            "name": "markdown",
+            "label": "Markdown",
+            "required": false,
+            "multiple": true,
+            "type": "long-text",
+            "mimeType": "text/x-markdown"
+        }, {
+            "name": "number",
+            "label": "Number",
+            "required": false,
+            "multiple": true,
+            "type": "float-number"
+        }, {
+            "name": "datetime",
+            "label": "DateTime",
+            "required": false,
+            "multiple": false,
+            "type": "date-time",
+            "placeholder": "YYYY-MM-DD HH:mm:ss"
+        }, {
+            "name": "dropdown",
+            "label": "Dropdown",
+            "required": false,
+            "multiple": false,
+            "type": "enumeration",
+            "hint": "select",
+            "values": [{
+                "key": "A",
+                "value": "A"
+            }, {
+                "key": "B",
+                "value": "B"
+            }, {
+                "key": "C",
+                "value": "C"
+            }],
+            "unique": false
+        }, {
+            "name": "checkboxes",
+            "label": "Checkboxes",
+            "required": false,
+            "multiple": true,
+            "type": "enumeration",
+            "hint": "checkbox",
+            "values": [{
+                "key": "A",
+                "value": "A"
+            }, {
+                "key": "B",
+                "value": "B"
+            }],
+            "unique": false
+        }, {
+            "name": "radiobuttons",
+            "label": "Radiobuttons",
+            "required": false,
+            "multiple": false,
+            "type": "enumeration",
+            "hint": "radio",
+            "values": [{
+                "key": "A",
+                "value": "A"
+            }, {
+                "key": "B",
+                "value": "B"
+            }],
+            "unique": false
+        }, {
+            "name": "content",
+            "label": "Content",
+            "required": false,
+            "multiple": true,
+            "type": "content-reference",
+            "showThumbnail": false
+        }, {
+            "name": "fragments",
+            "label": "Fragments",
+            "required": false,
+            "multiple": true,
+            "type": "content-fragment",
+            "allowFragmentCreation": true,
+            "items": ["L2NvbmYvQWRpdGktQ0YtVGVzdC9UZXN0LWNvbmYtMi9zZXR0aW5ncy9kYW0vY2ZtL21vZGVscy9tb2RlbC1h", "L2NvbmYvQWRpdGktQ0YtVGVzdC9UZXN0LWNvbmYtMi9UZXN0LWNvbmYtMy9zZXR0aW5ncy9kYW0vY2ZtL21vZGVscy9tb2RlbC1h", "L2NvbmYvQWRpdGktQ0YtVGVzdC9zZXR0aW5ncy9kYW0vY2ZtL21vZGVscy9ydGU", "L2NvbmYvQWRpdGktQ0YtVGVzdC9zZXR0aW5ncy9kYW0vY2ZtL21vZGVscy9hbGxkYXRhdHlwZXNfbm9yZXF1aXJlZGZpZWxk", "L2NvbmYvQWRpdGktQ0YtVGVzdC9zZXR0aW5ncy9kYW0vY2ZtL21vZGVscy9hbGxkYXRhdHlwZXM", "L2NvbmYvQWRpdGktQ0YtVGVzdC9zZXR0aW5ncy9kYW0vY2ZtL21vZGVscy9pbWFnZS1yZWZlcmVuY2U", "L2NvbmYvQWRpdGktQ0YtVGVzdC9zZXR0aW5ncy9kYW0vY2ZtL21vZGVscy9iYW5uZXI"],
+            "tags": []
+        }, {
+            "name": "tags",
+            "label": "Tags",
+            "required": false,
+            "multiple": true,
+            "type": "tag",
+            "root": "/content/cq:tags"
+        }, {
+            "name": "json",
+            "label": "JSON",
+            "required": false,
+            "multiple": false,
+            "type": "json"
+        }],
+        "previewStatus": "OUT_OF_SYNC",
+        "tags": [],
+        "previewUrlPattern": "http://example.com/just/a/demo/link/variant/${contentFragment.variation}"
+    }]
+}

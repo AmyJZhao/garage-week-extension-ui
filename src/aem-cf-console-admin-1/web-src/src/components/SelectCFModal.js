@@ -70,6 +70,7 @@ export default function SelectCFModal () {
         const auth = guestConnection.sharedContext.get("auth");
         const host = guestConnection.sharedContext.get("aemHost");
         const filteredContentFragments = await await getContentFragmentByModelFilter(auth.imsToken, host, modelId);
+        console.log(filteredContentFragments.items.slice(4));
         setFragments(filteredContentFragments.items);
         setLoadingCF('idle');
       })();
@@ -114,9 +115,11 @@ export default function SelectCFModal () {
                 <Card key={item.id}>
                   {/*<Image src={item.fields.filter(e => e.type == "content-reference")[0].values[0]}/> */}
                   <Heading>{item.title}</Heading>
+                  <Content>
                   {item.fields.filter(e => e.name == "claimText").length != 0 ? (
-                    <Content>Claim text: {item.fields.filter(e => e.name == "claimText")[0].values.length != 0 ? item.fields.filter(e => e.name == "claimText")[0].values[0] : 
-                    "None"} </Content>) : ""}
+                    <Text>Claim text: {item.fields.filter(e => e.name == "claimText")[0].values.length != 0 ? item.fields.filter(e => e.name == "claimText")[0].values[0] : 
+                    "None"} </Text>) : ""}
+                  </Content>
                 </Card>
               )}
         </CardView>

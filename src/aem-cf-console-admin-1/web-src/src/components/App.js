@@ -19,7 +19,7 @@ function App() {
             element={<ExtensionRegistration />} 
           />
           <Route
-            exact path="select-cf-modal"
+            exact path="claims-list"
             element={<SelectCFModal />}
           />
           // YOUR CUSTOM ROUTES SHOULD BE HERE

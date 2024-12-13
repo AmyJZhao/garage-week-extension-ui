@@ -14,28 +14,27 @@ function ExtensionRegistration() {
     const guestConnection = await register({
       id: extensionId,
       methods: {
-        headerMenu: {
-          getButtons() {
-            return [
-              // YOUR HEADER BUTTONS CODE SHOULD BE HERE
-              {
-                'id': 'select-cf',
-                'label': 'Select CF',
-                'icon': 'OpenIn',
-                onClick() {
-                  const modalURL = "/index.html#/select-cf-modal";
-                  console.log("Modal URL: ", modalURL);
-
-                  guestConnection.host.modal.showUrl({
-                    title: "Select CF",
-                    url: modalURL,
-                    fullscreen: true
-                  });
-                },
+        prompt: {
+          selectAddOn: async (appExtensionId) => {
+            const adddOnId = appExtensionId+"-claims-addon-select";
+            return {
+              id: adddOnId,
+              label: "Claims",
+              onClick: async () => {
+                const hostInfo = await guestConnection.host.api.dialogs.open(`${adddOnId}`);
               },
-            ];
+            }
           },
-        },
+          loadAddOn: async (appExtensionId) => {
+            return {
+              id: `${appExtensionId}-claims-addon-app`,
+              label: "Claims",
+              header: "Claims",
+              url: '/#/claims-list',
+              extensionId: appExtensionId,
+            };
+          },
+        }
       },
     });
   };

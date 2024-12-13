@@ -77,6 +77,12 @@ export default function SelectCFModal () {
     }
   }, [modelId, guestConnection]);
 
+  const onClaimSelect = async () => {
+    const selectedClaims = fragments.filter(frag => [...selectedKeys].includes(frag.id)).filter(frag => frag.fields.filter(e => e.name == "claimText").length != 0).map(frag => frag.fields.filter(e => e.name == "claimText")[0].values[0]);
+    console.log(selectedClaims);
+    await guestConnection.host.api.sendToGs(selectedClaims);
+  }
+
   return (
     <Provider theme={defaultTheme} colorScheme='light'>
       <Content width="100%" height="100%">
@@ -103,7 +109,7 @@ export default function SelectCFModal () {
             }
           </ComboBox>
           <ButtonGroup>
-            <Button variant="accent">Send to Gen Studio</Button>
+            <Button onPress={onClaimSelect} variant="accent">Send to Gen Studio</Button>
           </ButtonGroup>
         </Flex>
           {
